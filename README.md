@@ -46,7 +46,7 @@ First copy the file pfsense_zbx.php to your pfsense box (e.g. to /root/scripts).
 From **Diagnostics/Command Prompt** input this one-liner:
 
 ```bash
-curl --create-dirs -o /root/scripts/pfsense_zbx.php https://raw.githubusercontent.com/rbicelli/pfsense-zabbix-template/master/pfsense_zbx.php
+curl --create-dirs -o /root/scripts/pfsense_zbx.php https://raw.githubusercontent.com/stevo11811/pfsense-zabbix-template/master/pfsense_zbx.php
 ```
 
 Then install package "Zabbix Agent 6" (or "Zabbix Agent 5") on your pfSense Box
